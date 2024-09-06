@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/navbar/Navbar.jsx'
+import Footer from '../../components/navbar/Footer.jsx'
 
 const Product = () => {
   return (
     <>
-    <h1>product</h1>
-      
+      <Navbar />
+      <h1>product</h1>
+      <Footer />
     </>
   )
 }

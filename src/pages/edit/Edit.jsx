@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/navbar/Navbar.jsx'
+import Footer from '../../components/navbar/Footer.jsx'
 
 const Edit = () => {
   return (
     <>
-    <h1>edit</h1>
-      
+      <Navbar />
+      <h1>edit</h1>
+      <Footer/>
     </>
   )
 }

@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/navbar/Navbar.jsx'
+import Footer from '../../components/navbar/Footer.jsx'
 
 const Create = () => {
   return (
     <>
-      <h1>create</h1>
+      <Navbar />
+      <h1>Create New Product</h1>
+      <Footer/>
     </>
   )
 }
