@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     fetchProduct()
   }, [])
-  console.log(products)
+  // console.log(products)
 
   return (
     <>
@@ -27,7 +27,7 @@ const Home = () => {
             {
               products.map((product)=>{
                 return (
-                  <Card product={product} />
+                  <Card key={product.id} product={product} />
                 )
               })
             }
