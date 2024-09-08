@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Product from './pages/product/Product.jsx'
 import Create from './pages/create/Create.jsx'
 import Edit from './pages/edit/Edit.jsx'
-import Home from './pages/Home/Home.jsx'
+import Home from './pages/home/Home.jsx'
 
 const App = () => {
   return (
